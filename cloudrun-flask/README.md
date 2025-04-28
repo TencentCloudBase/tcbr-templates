@@ -1,4 +1,4 @@
-# cloudrun-nest
+# cloudrun-flask
 
 ## 快速开始
 
@@ -11,3 +11,19 @@
 请参考 [优化容器镜像](https://docs.cloudbase.net/run/develop/image-optimization)
 
 ## 目录结构说明
+
+```
+.
+├── Dockerfile
+├── README.md
+├── init.py
+├── manage.py
+├── requirements.txt
+├── route
+│   ├── user.py
+│   └── welcome.py
+└── templates
+    └── static
+        └── html
+            └── index.html
+```
