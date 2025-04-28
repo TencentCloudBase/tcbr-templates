@@ -19,7 +19,7 @@ from django.urls import re_path as url
 
 urlpatterns = [
     # 用户列表接口
-    url(r'^^apis/users(/)?$', views.getusers),
+    url(r'^^api/users(/)?$', views.getusers),
 
     # 获取主页
     url(r'(/)?$', views.index),

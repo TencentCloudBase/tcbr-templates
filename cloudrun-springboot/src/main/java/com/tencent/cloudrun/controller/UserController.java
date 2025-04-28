@@ -12,7 +12,7 @@ public class UserController {
     @Resource
     private UserService userService;
 
-    @GetMapping(value = "/apis/users")
+    @GetMapping(value = "/api/users")
     public ListUsersRes ListUser() {
         return userService.listUsers();
     }
