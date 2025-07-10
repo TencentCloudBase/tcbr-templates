@@ -7,6 +7,8 @@ WORKDIR /app
 # 首先复制包管理文件以利用 Docker 缓存层
 COPY package.json package-lock.json* ./
 
+RUN npm config set registry https://registry.npmjs.org/
+
 # 安装依赖（包括 devDependencies，因为需要构建）
 RUN npm install
 
