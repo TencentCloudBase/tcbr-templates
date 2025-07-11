@@ -10,4 +10,6 @@
 * python
   * [django](cloudrun-django/README.md)
   * [flask](cloudrun-flask/README.md)
+* Web 
+  * [nextjs](cloudrun-nextjs/README.md)
   
